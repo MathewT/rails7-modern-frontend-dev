@@ -1,24 +1,24 @@
-# README
+# rails7-modern-frontend-dev
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Create new Rails 7 app
 
-Things you may want to cover:
+```bash
+docker-compose run --no-deps web rails new . --force --skip-git  --database=postgresql
+```
 
-* Ruby version
+### Build the image
 
-* System dependencies
+```bash
+docker-compose build
+```
 
-* Configuration
+### Run locally
 
-* Database creation
+```bash
+docker-compose up
+```
 
-* Database initialization
+### Useful links
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Getting started blog post](https://www.knowbe4.com/careers/engineering/railspostgresqldocker)
+[Rails 7 API only](https://guides.rubyonrails.org/api_app.html)
